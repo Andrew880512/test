@@ -1,321 +1,321 @@
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-    <head>
-      <meta charset="utf-8">
-      <title></title>
-      <style type="text/css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
 
-  @keyframes div0 {
-    0% {transform:translate(0);transform:rotate(-45deg);}
-    50%{transform:translate(-160px, 0);border-color:#EE4D68}
-    100%{transform:translate(0);transform:rotate(-225deg);}}
-  @keyframes div1 {
-    0%{transform:translate(0);transform:rotate(-45deg);}
-    50%{transform:translate(160px, 0);border-color:#875678}
-    100%{transform:translate(0);transform:rotate(-225deg);}}
-  @keyframes div2 {
-    0%{transform:translate(0);transform:rotate(-45deg);}
-    50%{transform:translate(0, -160px);border-color:#FF9900}
-    100%{transform:translate(0);transform:rotate(-225deg);}}
-  @keyframes div3 {
-    0%{transform:translate(0);transform:rotate(-45deg);}
-    50%{transform:translate(0, 160px);border-color:#00E4F6}
-    100%{transform:translate(0);transform:rotate(-225deg);}}
-  .diW-0{
-    animation: div0 6s ease-in-out infinite;
-    margin-left:40%;
-    position: fixed;
-    top: 190px;
-    border: 4px solid #0B1B48;
-  }
-  .diW-1{
-    animation: div1 6s ease-in-out infinite;
-    margin-left:40%;
-    position: fixed;
-    top: 190px;
-    border: 4px solid #0B1B48;
-  }
-  .diW-2{
-    animation: div2 6s ease-in-out infinite;
-    margin-left:40%;
-    position: fixed;
-    top: 190px;
-    border: 4px solid #0B1B48;
-  }
-  .diW-3{
-    animation: div3 6s ease-in-out infinite;
-    margin-left:40%;
-    position: fixed;
-    top: 190px;
-    border: 4px solid #0B1B48;
-  }
-  .wrapper{
-    width: 100%;
-    height: auto;
-  }
+@keyframes div0 {
+  0% {transform:translate(0);transform:rotate(-45deg);}
+  50%{transform:translate(-160px, 0);border-color:#EE4D68}
+  100%{transform:translate(0);transform:rotate(-225deg);}}
+@keyframes div1 {
+  0%{transform:translate(0);transform:rotate(-45deg);}
+  50%{transform:translate(160px, 0);border-color:#875678}
+  100%{transform:translate(0);transform:rotate(-225deg);}}
+@keyframes div2 {
+  0%{transform:translate(0);transform:rotate(-45deg);}
+  50%{transform:translate(0, -160px);border-color:#FF9900}
+  100%{transform:translate(0);transform:rotate(-225deg);}}
+@keyframes div3 {
+  0%{transform:translate(0);transform:rotate(-45deg);}
+  50%{transform:translate(0, 160px);border-color:#00E4F6}
+  100%{transform:translate(0);transform:rotate(-225deg);}}
+.diW-0{
+  animation: div0 6s ease-in-out infinite;
+  margin-left:40%;
+  position: fixed;
+  top: 190px;
+  border: 4px solid #0B1B48;
+}
+.diW-1{
+  animation: div1 6s ease-in-out infinite;
+  margin-left:40%;
+  position: fixed;
+  top: 190px;
+  border: 4px solid #0B1B48;
+}
+.diW-2{
+  animation: div2 6s ease-in-out infinite;
+  margin-left:40%;
+  position: fixed;
+  top: 190px;
+  border: 4px solid #0B1B48;
+}
+.diW-3{
+  animation: div3 6s ease-in-out infinite;
+  margin-left:40%;
+  position: fixed;
+  top: 190px;
+  border: 4px solid #0B1B48;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+}
 .stop{
-  position: absolute;
-  z-index: 1;
-  left: 70px;
+position: absolute;
+z-index: 1;
+left: 70px;
 }
 
 .start{
-  position: absolute;
-  z-index: 1;
+position: absolute;
+z-index: 1;
 }
 .textarea {
-  position: absolute;
+position: absolute;
 }
 p{
-  position: relative;
+position: relative;
 }
 @-webkit-keyframes fadeInFromNone {
-    0% {
-        display: none;
-        opacity: 0;
-    }
+  0% {
+      display: none;
+      opacity: 0;
+  }
 
-    1% {
-        display: block;
-        opacity: 0;
-    }
+  1% {
+      display: block;
+      opacity: 0;
+  }
 
-    100% {
-        display: block;
-        opacity: 1;
-    }
+  100% {
+      display: block;
+      opacity: 1;
+  }
 }
 @-webkit-keyframes fadeOutFromNone {
-    0% {
-        display: none;
-        opacity: 1;
-    }
+  0% {
+      display: none;
+      opacity: 1;
+  }
 
-    1% {
-        display: block;
-        opacity: 1;
-    }
+  1% {
+      display: block;
+      opacity: 1;
+  }
 
-    100% {
-        display: block;
-        opacity: 0;
-    }
+  100% {
+      display: block;
+      opacity: 0;
+  }
 }
 .stars{
-  animation: fadeInFromNone 2s ease-out;
-  width: 3px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
+animation: fadeInFromNone 2s ease-out;
+width: 3px;
+height: 3px;
+background-color: white;
+position: absolute;
 }
 .starsOut{
-  animation: fadeOutFromNone 2s ease-out;
-  width: 3px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
+animation: fadeOutFromNone 2s ease-out;
+width: 3px;
+height: 3px;
+background-color: white;
+position: absolute;
 }
-      </style>
-    </head>
-    <body>
-      <div class="wrapper">
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
 
 <div class="text">
-  <p>this test</p>
-  <p>Push Button</p>
+<p>this test</p>
+<p>Push Button</p>
 </div>
 
-  <button type="button" name="buttonstart" id="buttonStart" class="start">Start</button>
-  <button type="button" name="buttonstop" id="buttonStop" class="stop">Stop</button>
-  </div>
-  <script>
-  "use strict";
-  //---------------------------------------------
-  // function ask(question, answer, ok, fail) {
-  //   var result = prompt(question, '');
-  //   if (result.toLowerCase() == answer.toLowerCase()) ok();
-  //   else fail();
-  // }
-  //
-  // var user = {
-  //   login: 'Василий',
-  //   password: '12345',
-  //
-  //   loginOk: function() {
-  //     alert( this.login + ' вошёл в сайт' );
-  //   },
-  //
-  //   loginFail: function() {
-  //     alert( this.login + ': ошибка входа' );
-  //   },
-  //
-  //   checkPassword: function() {
-  //     ask("Ваш пароль?", this.password, this.loginOk.bind(this), this.loginFail.bind(this));
-  //   }
-  // };
-  // var vasya = user;
-  // user = null;
-  // vasya.checkPassword();
-  //--------------------------
-  // function pow(x, n) {
-  //   if (n != 1) { // пока n != 1 сводить вычисление pow(x,n) к pow(x,n-1)
-  //     return x * pow(x, n - 1);
-  //   } else {
-  //     return x;
-  //   }
-  // }
-  // console.log(pow(2,9));
-  //-------------------------
-  var wizards = [
-    {
-    name: 'Пендальф',
-    location:{x:1,y:20}
-  },
+<button type="button" name="buttonstart" id="buttonStart" class="start">Start</button>
+<button type="button" name="buttonstop" id="buttonStop" class="stop">Stop</button>
+</div>
+<script>
+"use strict";
+//---------------------------------------------
+// function ask(question, answer, ok, fail) {
+//   var result = prompt(question, '');
+//   if (result.toLowerCase() == answer.toLowerCase()) ok();
+//   else fail();
+// }
+//
+// var user = {
+//   login: 'Василий',
+//   password: '12345',
+//
+//   loginOk: function() {
+//     alert( this.login + ' вошёл в сайт' );
+//   },
+//
+//   loginFail: function() {
+//     alert( this.login + ': ошибка входа' );
+//   },
+//
+//   checkPassword: function() {
+//     ask("Ваш пароль?", this.password, this.loginOk.bind(this), this.loginFail.bind(this));
+//   }
+// };
+// var vasya = user;
+// user = null;
+// vasya.checkPassword();
+//--------------------------
+// function pow(x, n) {
+//   if (n != 1) { // пока n != 1 сводить вычисление pow(x,n) к pow(x,n-1)
+//     return x * pow(x, n - 1);
+//   } else {
+//     return x;
+//   }
+// }
+// console.log(pow(2,9));
+//-------------------------
+var wizards = [
   {
-  name: 'Гендальф',
-  location:{x:87,y:60}
-  },
-  {
-  name: 'Змей',
-  location:{x:52,y:30}
+  name: 'Пендальф',
+  location:{x:1,y:20}
+},
+{
+name: 'Гендальф',
+location:{x:87,y:60}
+},
+{
+name: 'Змей',
+location:{x:52,y:30}
+}
+];
+var party = 'пригласить ';
+var wizz=wizards.slice().reduce(function(acamulator,it,i,arry){
+var massege = acamulator + it.name;
+console.log(acamulator);
+if (i!==(arry.length-1)) {
+  massege+=', ';
+}
+  return massege;
+},party);
+//console.log(wizards);
+console.log(wizz);
+//-----------------------------------------
+var arr = ["Есть", "жизнь", "на", "Марсе"];
+
+var arrTwo = arr.map(function(it,i){
+
+  var leg = it.length;
+  if (i!==(arr.length-1)) {
+    leg+="?";
   }
-  ];
-  var party = 'пригласить ';
-  var wizz=wizards.slice().reduce(function(acamulator,it,i,arry){
-  var massege = acamulator + it.name;
-  console.log(acamulator);
-  if (i!==(arry.length-1)) {
-    massege+=', ';
-  }
-    return massege;
-  },party);
-  //console.log(wizards);
-  console.log(wizz);
-  //-----------------------------------------
-  var arr = ["Есть", "жизнь", "на", "Марсе"];
+  return leg;
+});
+var arrThre = arr.reduce(function(acamulator,it,i,arry){
+  var leg = acamulator+it;
 
-  var arrTwo = arr.map(function(it,i){
+  return leg;
 
-    var leg = it.length;
-    if (i!==(arr.length-1)) {
-      leg+="?";
-    }
-    return leg;
-  });
-  var arrThre = arr.reduce(function(acamulator,it,i,arry){
-    var leg = acamulator+it;
+});
 
-    return leg;
+console.log(arrThre.length);
 
-  });
+// for (var i = 0; i < arr.length; i++) {
+//   arrLength[i] = arr[i].length;
+// }
+//
+// alert( arrLength ); // 4,5,2,5
+//-----------------------------------------
+//-----рекурсия-----
+function getRandom2(min,max){
+ return Math.floor(Math.random() * (max - min) + min);
+};
+ var newWash = function(itemsLeft){
+   itemsLeft--;
+   console.log('в раковине осталось '+itemsLeft+' случайных предметов');
+   if (itemsLeft>0) {
+     newWash(itemsLeft);
+   }
+ };
+ //-----------------------------
+var start = document.getElementById('buttonStart');
+start.addEventListener('click',function(){
 
-  console.log(arrThre.length);
-
-  // for (var i = 0; i < arr.length; i++) {
-  //   arrLength[i] = arr[i].length;
-  // }
-  //
-  // alert( arrLength ); // 4,5,2,5
-  //-----------------------------------------
-  //-----рекурсия-----
-  function getRandom2(min,max){
-   return Math.floor(Math.random() * (max - min) + min);
-  };
-   var newWash = function(itemsLeft){
-     itemsLeft--;
-     console.log('в раковине осталось '+itemsLeft+' случайных предметов');
-     if (itemsLeft>0) {
-       newWash(itemsLeft);
-     }
-   };
-   //-----------------------------
-  var start = document.getElementById('buttonStart');
-  start.addEventListener('click',function(){
-
-      var body = document.querySelector('body');
-        function newGradient() {
-          var randomColor1 = "#" + Math.floor(Math.random()*16777215).toString(16),
-          randomColor2 = "#" + Math.floor(Math.random()*16777215).toString(16);
-          return 'linear-gradient(to left, '+randomColor1+', '+randomColor2+')'
-        };
-          body.style.background=newGradient();
+    var body = document.querySelector('body');
+      function newGradient() {
+        var randomColor1 = "#" + Math.floor(Math.random()*16777215).toString(16),
+        randomColor2 = "#" + Math.floor(Math.random()*16777215).toString(16);
+        return 'linear-gradient(to left, '+randomColor1+', '+randomColor2+')'
+      };
+        body.style.background=newGradient();
 //----------------------------------
 var wrapper = document.querySelector('.wrapper');
-   var intervalStars = setInterval(function(){
-  for (var i = 0; i <Math.floor(getRandom(10,200)); i++) {
-    var stars = document.createElement('span');
-    wrapper.insertBefore(stars,wrapper.children[0]);
-    stars.classList.add('stars');
-    stars.id='stars';
-    stars.style.margin=Math.floor(getRandom(0,100))+'% 0 0 '+Math.floor(getRandom(0,100))+'% ';
-  };
+ var intervalStars = setInterval(function(){
+for (var i = 0; i <Math.floor(getRandom(10,200)); i++) {
+  var stars = document.createElement('span');
+  wrapper.insertBefore(stars,wrapper.children[0]);
+  stars.classList.add('stars');
+  stars.id='stars';
+  stars.style.margin=Math.floor(getRandom(0,100))+'% 0 0 '+Math.floor(getRandom(0,100))+'% ';
+};
 },5000);
 //---------------------------------
-  setInterval(function(){
-    var starsSelector = document.querySelectorAll('.stars');
-    starsSelector.forEach(function(it, i , array){
-      var ran = Math.floor(getRandom(0,i));
-      array[ran].style.animation='fadeOutFromNone 2s ease-out';
-      setTimeout(function() {
-        array[ran].remove();
-      },2000);
-    });
-  },7000);
-  //--------------------------------
-  for (var i = 0; i < 4; i++) {
-    var createDiv = document.createElement("div");
-      var divClass = wrapper.appendChild(createDiv);
-      createDiv.classList.add('diW-'+i);
-  };
+setInterval(function(){
+  var starsSelector = document.querySelectorAll('.stars');
+  starsSelector.forEach(function(it, i , array){
+    var ran = Math.floor(getRandom(0,i));
+    array[ran].style.animation='fadeOutFromNone 2s ease-out';
+    setTimeout(function() {
+      array[ran].remove();
+    },2000);
+  });
+},7000);
+//--------------------------------
+for (var i = 0; i < 4; i++) {
+  var createDiv = document.createElement("div");
+    var divClass = wrapper.appendChild(createDiv);
+    createDiv.classList.add('diW-'+i);
+};
 
-  var classChoose = document.querySelectorAll('[class|="diW"]', 3);
-      var timerId  = setInterval(function(){
-        for (var i = 0; i < classChoose.length; i++) {
-          classChoose[i].style.width='150px';
-          classChoose[i].style.height='150px';
-          //classChoose[i].style.backgroundColor='rgb'+'('+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+')';
-        };
-      },1000);
+var classChoose = document.querySelectorAll('[class|="diW"]', 3);
+    var timerId  = setInterval(function(){
+      for (var i = 0; i < classChoose.length; i++) {
+        classChoose[i].style.width='150px';
+        classChoose[i].style.height='150px';
+        //classChoose[i].style.backgroundColor='rgb'+'('+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+')';
+      };
+    },1000);
 var starsSel = document.querySelectorAll('[class|="stars"]');
 //----------------
-      var ifMoreDive = function() {
-        classChoose.forEach(function(item, i, arr) {
-          item.style.width='150px';
-          item.style.height='150px';
-        //  item.style.backgroundColor='rgb'+'('+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+')';
-            if (i>3) {
-              starsSel.forEach(function(it,ii,ar) {
-                it.remove();
-              });
-              item.remove();
-              clearInterval(timerId);
-              clearInterval(intervalStars);
-            }
-        });
-      };
-      ifMoreDive();
-//-----------------
-    var stop = document.getElementById('buttonStop');
-    stop.addEventListener('click',function(){
-      setTimeout(function(){
-        clearInterval(timerId);
-        clearInterval(intervalStars);
-        intervalStars
-        for (var i = 0; i < classChoose.length; i++) {
-          classChoose[i].remove();
-        };
-        var stars = document.querySelectorAll('.stars');
-        for (var i = 0; i < stars.length; i++) {
-          stars[i].remove();
-        };
+    var ifMoreDive = function() {
+      classChoose.forEach(function(item, i, arr) {
+        item.style.width='150px';
+        item.style.height='150px';
+      //  item.style.backgroundColor='rgb'+'('+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+','+Math.floor(getRandom(0,255))+')';
+          if (i>3) {
+            starsSel.forEach(function(it,ii,ar) {
+              it.remove();
+            });
+            item.remove();
+            clearInterval(timerId);
+            clearInterval(intervalStars);
+          }
       });
+    };
+    ifMoreDive();
+//-----------------
+  var stop = document.getElementById('buttonStop');
+  stop.addEventListener('click',function(){
+    setTimeout(function(){
+      clearInterval(timerId);
+      clearInterval(intervalStars);
+      intervalStars
+      for (var i = 0; i < classChoose.length; i++) {
+        classChoose[i].remove();
+      };
+      var stars = document.querySelectorAll('.stars');
+      for (var i = 0; i < stars.length; i++) {
+        stars[i].remove();
+      };
     });
+  });
 });
-   //--------------------рандом--------------
-   function getRandom(min,max){
-    return Math.random() * (max - min) + min;
-  };
-  //----------------------------------градиент
-  </script>
-    </body>
-  </html>
+ //--------------------рандом--------------
+ function getRandom(min,max){
+  return Math.random() * (max - min) + min;
+};
+//----------------------------------градиент
+</script>
+  </body>
+</html>
